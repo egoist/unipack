@@ -2,6 +2,10 @@
 
 [![NPM version](https://img.shields.io/npm/v/unipack.svg?style=flat)](https://npmjs.com/package/unipack) [![NPM downloads](https://img.shields.io/npm/dm/unipack.svg?style=flat)](https://npmjs.com/package/unipack) [![CircleCI](https://circleci.com/gh/egoist/unipack/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/unipack/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
+## Why?
+
+You will need two webpack compiler, one is for server-side rendering, the other one is for client-side app.
+
 ## Install
 
 ```bash
