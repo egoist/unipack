@@ -27,7 +27,7 @@ pack.build()
 
 // Run both in dev mode
 // Run server compiler in watch mode
-// RUn client compiler with a dev server
+// Run client compiler with a dev server
 pack.start({
   host,
   port,
