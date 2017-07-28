@@ -1,10 +1,9 @@
 const EventEmitter = require('events')
-const webpack = require('webpack')
 const DevServer = require('webpack-dev-server')
 
 function pify(fn) {
-  return new Promise((resolve, reject) => {
-    fn((err, res) => {
+  return (...args) => new Promise((resolve, reject) => {
+    fn(...args, (err, res) => {
       if (err) return reject(err)
       resolve(res)
     })

@@ -34,6 +34,10 @@ pack.start({
   devServerOptions,
   watchOption
 })
+
+// Then you will have:
+pack.devServer // express app
+pack.devServerInstance // `net.Server` instance
 ```
 
 ## Contributing
