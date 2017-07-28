@@ -4,7 +4,7 @@
 
 ## Why?
 
-You will need two webpack compiler, one is for server-side rendering, the other one is for client-side app.
+You will need two webpack compilers, one is for server-side rendering, the other one is for client-side app.
 
 ## Install
 
